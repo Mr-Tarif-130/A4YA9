@@ -3,7 +3,8 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[   Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐𝐱130  ]";
+const doNotDelete = "[   Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐𝐱130~
+https://www.facebook.com/Mr.Tarif.Yt.130 ]";
 /**
 * @author NTKhang
 * @author: do not delete it
