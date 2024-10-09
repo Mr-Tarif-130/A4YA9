@@ -1,4 +1,4 @@
-!cmd install prefix.js const fs = require("fs-extra");
+const fs = require("fs-extra");
 const { utils } = global;
 
 module.exports = {
@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "┏━━ [ Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐𝐱130 ]━━➣\n┃🗿 𝗦𝘆𝘀𝘁𝗲𝗺 𝗽𝗿𝗲𝗳𝗶𝘅: [ %1 ]\n┃⏳ 𝗬𝗼𝘂𝗿 𝗯𝗼𝘅 𝗰𝗵𝗮𝘁 𝗽𝗿𝗲𝗳𝗶𝘅: [ %2 ]\n┗━━━━━━━━━━━━➢"
+			myPrefix: "┏━━ [ 𝙲𝚢𝚋𝚎𝚛 𝙻𝙸𝚂𝙰 ]━━➣\n┃🗿 𝚂𝚈𝚂𝚃𝙴𝙼 𝙿𝚁𝙴𝙵𝙸𝚇: [ %1 ]\n┃⏳ 𝚈𝙾𝚄𝚁 𝙱𝙸𝚇 𝙲𝙷𝙰𝚃 𝙿𝚁𝙴𝙵𝙸𝚇: [ %2 ]\n┗━━━━━━━━━━━━➢"
 		}
 	},
 
@@ -99,7 +99,7 @@ module.exports = {
     const name = data.name;
     const xyrene = {
       body: getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
-      attachment: await global.utils.getStreamFromURL("https://i.imgur.com/RkeDDtj.jpeg")
+      attachment: await global.utils.getStreamFromURL("https://i.imgur.com/glGglWm.jpeg")
         };
     if (event.body && event.body.toLowerCase() === "prefix")
       return () => {
