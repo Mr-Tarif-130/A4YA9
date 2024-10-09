@@ -21,7 +21,7 @@ module.exports = {
 	onStart: async function ({ api,event,args, message }) {
         const permission = ["61552422054139"];
         if (!permission.includes(event.senderID)) {
-            api.sendMessage("𝗢𝗻𝗹𝘆 𝗺𝘆 𝗯𝗼𝘀𝘀 𝗧𝗮𝗿𝗶𝗳, 𝘄𝗶𝗹𝗹 𝗵𝗮𝘀 𝗿𝗶𝗴𝗵𝘁 𝗳𝗼𝗿 𝘁𝗵𝗶𝘀 𝗖𝗺𝗱 😒.", event.threadID, event.messageID);
+            api.sendMessage("𝗢𝗻𝗹𝘆 𝗺𝘆 𝗯𝗼𝘀𝘀 𝗧𝗮𝗿𝗶𝗳, 𝘄𝗶𝗹𝗹 𝗵𝗮𝘀 𝗿𝗶𝗴𝗵𝘁 𝗳𝗼𝗿 𝘁𝗵𝗶𝘀 𝗖𝗺𝗱 .", event.threadID, event.messageID);
             return;
         }
  var id;
@@ -30,6 +30,6 @@ module.exports = {
  } else {
  id = parseInt(args.join(" "));
  }
- return api.sendMessage('𝗘𝗸𝗮𝗻𝗲 𝘁𝗼𝗿𝗮 𝘀𝗵𝗼𝗯 𝗹𝘂𝗰𝗰𝗵𝗮 𝗮𝗺𝗶 𝗷𝗮𝗶 𝗴𝗮', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
+ return api.sendMessage('𝗘𝗸𝗮𝗻𝗲 𝘁𝗼𝗿𝗮 𝘀𝗵𝗼𝗯 𝗹𝘂𝗰𝗰𝗵𝗮 𝗮𝗺𝗶 𝗷𝗮𝗶 𝗴𝗮 ', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
 		}
 	};
