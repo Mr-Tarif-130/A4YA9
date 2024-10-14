@@ -62,7 +62,8 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n\n╭─────✎[𝗘𝗡𝗝𝗢𝗬]\n│>𝗧𝗢𝗧𝗔𝗟 𝗖𝗠𝗗𝗦: [${totalCommands}].\n│𝗧𝗬𝗣𝗘𝖳:[ ${prefix}𝗛𝗘𝗟𝗣 𝗧𝗢\n│<𝗖𝗠𝗗> 𝗧𝗢 𝗟𝗘𝗔𝗥𝗡 𝗧𝗛𝗘 𝗨𝗦𝗔𝗚𝗘.]\n╰────────────✆`;
       msg += ``;
-      msg += `\n╭─────✰\n│ ♥︎╣[✑Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐✎]╠♥︎\n╰────────────✆`; 
+      msg += `\n╭─────✰\n│ ♥︎╣[✑Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐✎]
+https://m.me/Mr.Tarif.Yt.130╠♥︎\n╰────────────✆`; 
 
  				const helpListImages = [ "https://i.imgur.com/h5KYsHt.jpeg" ];
 
