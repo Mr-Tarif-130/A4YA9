@@ -21,12 +21,12 @@ module.exports.config = {
 module.exports.onStart = async ({ message, event, args, api }) => {
   try {
   const prompt = args.join(" ");
-    const ok = message.reply('wait koro aktu jan😁')
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true);
+    const ok = message.reply('W8•••Boss~👨🏿‍🌾')
+    api.setMessageReaction("✆", event.messageID, (err) => {}, true);
     const { data } = await axios.get(
           `${await baseApiUrl()}/flux?prompt=${prompt}`
     );
-    api.setMessageReaction("😇", event.messageID, (err) => {}, true);
+    api.setMessageReaction("🫨", event.messageID, (err) => {}, true);
      message.unsend(ok.messageID)
     await message.reply({
           body: `Here's your image`, 
