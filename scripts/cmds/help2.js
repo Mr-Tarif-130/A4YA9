@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "天 | 𝐀𝐒𝐈𝐅 𝐱𝟔𝟗";
+const doNotDelete = "天 | Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐𝐱130";
 const prefixes = ["help2"];
 /** 
 * @author NTKhang
@@ -130,7 +130,7 @@ module.exports = {
 
 																const returnArray = allPage[page - 1] || [];
 																const startNumber = (page - 1) * numberOfOnePage + 1;
-																msg += (returnArray || []).reduce((text, item, index) => text += `天 ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
+																msg += (returnArray || []).reduce((text, item, index) => text += `☞ ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
 																await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
 												}
 												else if (sortHelp == "category") {
