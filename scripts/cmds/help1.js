@@ -1,16 +1,16 @@
-!cmd install help2.js const fs = require("fs-extra");
+const fs = require("fs-extra");
 const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
 
-const doNotDelete = "🎀 | 𝑱𝑶𝒴𝑳𝒀𝑵𝑬 𝑨𝑰"; // Decoy string
+const doNotDelete = "Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐x130☂"; // Decoy string
 
 module.exports = {
   config: {
     name: "help1",
     version: "1.18",
-    author: "Hassan",
+    author: "x130",
     countDown: 5,
     role: 0,
     shortDescription: {
