@@ -16,7 +16,7 @@ const API_KEYS = [
 ];
 
 async function video(api, event, args, message) {
-    api.setMessageReaction("✆", event.messageID, (err) => {}, true);
+    api.setMessageReaction("🕢", event.messageID, (err) => {}, true);
     try {
         let title = '';
         let shortUrl = '';
@@ -87,7 +87,7 @@ async function video(api, event, args, message) {
         writer.on('finish', () => {
             const videoStream = fs.createReadStream(path.join(__dirname, "cache", `${videoId}.mp3`));
             message.reply({ body: `📹 Playing: ${title}`, attachment: videoStream });
-            api.setMessageReaction("🫨", event.messageID, () => {}, true);
+            api.setMessageReaction("✅", event.messageID, () => {}, true);
         });
 
         writer.on('error', (error) => {
