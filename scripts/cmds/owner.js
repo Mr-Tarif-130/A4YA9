@@ -16,13 +16,13 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ArYanInfo = {
-				name: '𝙼𝚂𝚃~ᴹᴬᵞᴬ~𝙱𝙾𝚃~Ұ₮',
-				gender: 'famale',
-				age: '19',
-				Tiktok: '𝐚𝐝𝐨𝐫𝐞𝐫.𝐛𝐨𝐫𝐨.𝐬𝐚𝐥𝐞',
+				name: 'Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐x130',
+				gender: 'male',
+				age: '16+',
+				Tiktok: 'md.tarif0196',
 				Relationship: '𝐒𝐢𝐧𝐠𝐥𝐞',
 				religion: '𝐈𝐬𝐥𝐚𝐦',
-				facebook: 'https://www.facebook.com/profile.php?id=61566930316683'
+				facebook: 'https://www.facebook.com/Mr.Tarif.Yt.130'
 			};
 
 			const ArYan = 'https://i.imgur.com/BzwofAR.jpeg';
